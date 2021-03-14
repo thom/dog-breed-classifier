@@ -15,8 +15,6 @@ of a human, the code will identify the resembling dog breed.
 
 ## Setup Instructions
 
-### Instructions
-
 Clone the repository and navigate to the downloaded folder:
 
 ```bash
