@@ -22,9 +22,28 @@ git clone https://github.com/thom/dog-breed-classifier.git
 cd dog-breed-classifier
 ```
 
-Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). Unzip the folder and place it in the repo, at location `dogImages/`. The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
+Download the [dog
+dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).
+Unzip the folder and place it in the repo, at location `dogImages/`. The
+`dogImages/` folder should contain 133 folders, each corresponding to a
+different dog breed.
 
-Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz). Unzip the folder and place it in the repo, at location `lfw/`.
+Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz). Unzip the
+folder and place it in the repo, at location `lfw/`.
+
+Install [anaconda](https://www.anaconda.com/products/individual) or
+[miniconda](https://docs.conda.io/en/latest/miniconda.html) and create a new
+conda environment:
+
+```bash
+conda create --name deep-learning python=3
+```
+
+Enter your new environment:
+
+```bash
+conda activate deep-learning
+```
 
 Make sure you have already installed the necessary Python packages:
 
